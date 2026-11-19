@@ -15,85 +15,69 @@
 
 
 <header class="hdr"><div class="wrap hdr-in">
-<a class="logo" href="/" aria-label="TreadX home"><img src="/treadx-logo-light.png" alt="TreadX"></a>
+<a class="logo" href="/" aria-label="TreadX home"><img src="/treadx-logo.png" alt="TreadX"></a>
 <nav class="nav" aria-label="Main">
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/programs">Programs</a>
-<a href="/iso-45003">ISO 45003</a>
+<a href="/services">Services</a>
 <a href="/clients">Clients</a>
 <a href="/media">Media &amp; Events</a>
 <a href="/contact" aria-current="page">Contact</a>
 </nav>
-<a class="btn btn-primary btn-sm hdr-cta" href="/contact">Book a session</a>
+<a class="btn btn-primary btn-sm hdr-cta" href="/contact">Enquire</a>
 <details class="nav-m"><summary>Menu</summary><div class="panel">
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/programs">Programs</a>
-<a href="/iso-45003">ISO 45003</a>
+<a href="/services">Services</a>
 <a href="/clients">Clients</a>
 <a href="/media">Media &amp; Events</a>
-<a href="/contact" aria-current="page">Book a session</a>
+<a href="/contact" aria-current="page">Contact</a>
+<a href="/contact">Enquire now</a>
 </div></details>
 </div></header>
 
 <main>
 
 <section class="phero">
-<div class="wrap">
-<div class="crumbs hero-in"><a href="/">Home</a><span>/</span><span>Contact</span></div>
+<div class="wrap ph-grid">
+<div class="ph-text"><div class="crumbs hero-in"><a href="/">Home</a><span>/</span><span>Contact</span></div>
 <span class="eyebrow hero-in d1">Contact</span>
-<h1 class="hero-in d1">Book a <span class="grad">session</span></h1>
-<p class="lead hero-in d2">Tell us about your team and what you want to change. We will reply with where we suggest starting.</p>
+<h1 class="hero-in d1">Let's start a <span class='grad'>conversation</span></h1>
+<p class="lead hero-in d2">Tell us about your organisation and what you want to change. We will reply with where we suggest starting.</p>
+</div>
+<div class="frame hero-in d2"><div class="pic"><img class="photo" src="/contact-welcome.jpg" alt="Two colleagues laughing together over coffee" loading="lazy" style="object-position: 40% 40%;"></div></div>
 </div>
 </section>
 
 <section class="sec">
-<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start;">
-
-<form class="panel rv" style="flex: 3 1 560px;" action="#" onsubmit="return false;">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 32px;">
+<div class="grid g3">
+<div class="card rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div><h3>Call</h3><a href="tel:+923355224220" style="font-weight: 700; font-size: 18px; text-decoration: none;">+92 33 55 224 220</a></div>
+<div class="card rv d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Visit</h3><p>TreadX Pakistan<br>Block B, Spring North Commercial, Phase 7, Bahria Town, Islamabad</p></div>
+<div class="card rv d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></div><h3>Follow</h3><div class="pills"><a class="pill" href="https://www.instagram.com/treadxp/" style="text-decoration: none;">Instagram</a><a class="pill" href="https://www.linkedin.com/company/treadx-pakistan" style="text-decoration: none;">LinkedIn</a></div></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start;">
+<div class="fw rv" style="flex: 3 1 560px;">
+<form class="panel" id="enquiry" action="#" onsubmit="return false;" novalidate>
+<h2 style="font-size: clamp(26px,2.6vw,36px); margin-bottom: 24px;">Send an enquiry</h2>
 <div class="form">
-<div class="field"><label for="c-name">Name *</label><input type="text" id="c-name" name="name" autocomplete="name" placeholder="Your full name"></div>
-<div class="field"><label for="c-email">Work email *</label><input type="email" id="c-email" name="email" autocomplete="email" placeholder="you@organisation.com"></div>
-<div class="field"><label for="c-org">Organisation</label><input type="text" id="c-org" name="org" autocomplete="organization" placeholder="Where you work"></div>
+<div class="field"><label for="c-name">Full name *</label><input type="text" id="c-name" name="name" autocomplete="name" placeholder="Your full name" required></div>
+<div class="field"><label for="c-org">Organisation *</label><input type="text" id="c-org" name="organisation" autocomplete="organization" placeholder="Where you work" required></div>
+<div class="field"><label for="c-email">Work email *</label><input type="email" id="c-email" name="email" autocomplete="email" placeholder="you@organisation.com" required></div>
 <div class="field"><label for="c-phone">Phone</label><input type="tel" id="c-phone" name="phone" autocomplete="tel" placeholder="+92"></div>
-<div class="field full"><span class="lbl" id="c-topic">What would you like to learn more about? *</span>
-<div class="opts" role="radiogroup" aria-labelledby="c-topic">
-<input type="radio" name="topic" id="o1" checked><label for="o1">Corporate trainings</label>
-<input type="radio" name="topic" id="o2"><label for="o2">Corporate mental wellness services</label>
-<input type="radio" name="topic" id="o3"><label for="o3">ISO 45003 training</label>
-<input type="radio" name="topic" id="o4"><label for="o4">Events &amp; retreats</label>
-<input type="radio" name="topic" id="o5"><label for="o5">Other</label>
-</div></div>
-<div class="field full"><label for="c-msg">Tell us about your team</label><textarea id="c-msg" name="message" placeholder="Team size, what you are facing, and anything that would help us prepare."></textarea></div>
-<div class="field full"><div><button class="btn btn-dark" type="submit">Send request <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></div>
+<div class="field full"><label for="c-type">Enquiry type *</label><select id="c-type" name="type" required><option value="">Choose one</option><option>Programs / training</option><option>Organisational services</option><option>Media / events</option><option>Partnership</option><option>Other</option></select></div>
+<div class="field full"><label for="c-msg">Message *</label><textarea id="c-msg" name="message" placeholder="Team size, what you are facing, and anything that would help us prepare." required></textarea></div>
+<div class="field full"><div><button class="btn btn-dark" type="submit">Send enquiry <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div><p class="fnote">We use your details only to reply to your enquiry.</p></div>
 </div>
 </form>
-
-<aside class="stack rv d1" style="flex: 2 1 340px; gap: 24px;">
-<div class="card" style="gap: 20px;">
-<h3 style="font-size: 32px;">TreadX Pakistan</h3>
-<div class="stack" style="gap: 6px;"><span class="tag">Visit</span><p>Block B, Spring North Commercial, Phase 7, Bahria Town, Islamabad</p></div>
-<div class="stack" style="gap: 6px;"><span class="tag">Call</span><a href="tel:+923355224220" style="font-weight: 700; font-size: 18px; text-decoration: none;">+92 33 55 224 220</a></div>
-<div class="stack" style="gap: 6px;"><span class="tag">Email</span><p>[Add contact email]</p></div>
+<div class="sent" role="status" aria-live="polite"><h3>Thank you</h3><p>Your enquiry has been sent. We will be in touch to discuss your requirements.</p></div>
 </div>
-<div class="locate"><span class="pin" aria-hidden="true"></span><h3 style="font-size: 30px;">Find us in Bahria Town</h3><p style="color: var(--mutedd); font-size: 15px;">Spring North Commercial, Phase 7, Islamabad</p><div><a class="btn btn-primary btn-sm" href="https://www.google.com/maps/search/?api=1&amp;query=Spring+North+Commercial+Bahria+Town+Phase+7+Islamabad">Open in Maps</a></div></div>
-<div class="card" style="gap: 14px;"><h3 style="font-size: 26px;">Follow TreadX</h3>
-<div class="pills"><a class="pill" href="https://www.instagram.com/treadxp/" style="text-decoration: none;">Instagram</a><a class="pill" href="https://www.linkedin.com/company/treadx-pakistan" style="text-decoration: none;">LinkedIn</a><a class="pill" href="https://www.facebook.com/" style="text-decoration: none;">Facebook</a></div></div>
+<aside class="stack rv d1" style="flex: 2 1 340px; gap: 24px;"><div class="pic aside-pic"><img class="photo" src="/meeting-group.jpg" alt="A team meeting around a table" loading="lazy" style="object-position: 50% 40%;"></div>
+<div class="locate"><span class="pin" aria-hidden="true"></span><h3 style="font-size: 26px;">Find us in Bahria Town</h3><p style="color: var(--mutedd); font-size: 15px;">Spring North Commercial, Phase 7, Islamabad</p><div><a class="btn btn-primary btn-sm" href="https://www.google.com/maps/search/?api=1&amp;query=Spring+North+Commercial+Bahria+Town+Phase+7+Islamabad">Get directions</a></div></div>
+<div class="card" style="gap: 10px;"><h3 style="font-size: 24px;">What happens next</h3><p>We read every enquiry and route it to the right person. We will reply to discuss your needs and suggest where to begin.</p></div>
 </aside>
-
-</div>
-</section>
-
-<section class="sec sec-white">
-<div class="wrap split">
-<div class="sticky stack rv-x"><span class="eyebrow">Before you write</span><h2>Common <span class="grad-d">questions</span></h2><p class="lead">Short answers to what organisations ask us first.</p></div>
-<div class="acc rv">
-<details><summary>Who are your programs for?</summary><p>Employees, managers and HR teams, and whole organisations. We run workshops for staff and for senior leaders, and a full program for building a mental health support system at work.</p></details>
-<details><summary>Can you tailor a program to our team?</summary><p>Yes. We start with a needs analysis and shape the sessions around your people, your pressures and your goals.</p></details>
-<details><summary>How do you measure results?</summary><p>We track baselines and performance before and after our services, so the change is tangible and measurable.</p></details>
-<details><summary>Where do you work?</summary><p>We have delivered sessions and events in Lahore, Karachi, Islamabad and Rawalpindi. Tell us your location in the form and we will confirm the format and logistics.</p></details>
-<details><summary>What is ISO 45003?</summary><p>It is the first global standard for managing psychosocial risk at work. We offer training on putting it into practice. <a href="/iso-45003" style="color: var(--brand); font-weight: 700;">Read more</a></p></details>
 </div>
 </div>
 </section>
@@ -101,24 +85,38 @@
 </main>
 
 <footer class="ftr">
+<div class="ftr-art" aria-hidden="true">
+<svg class="fa-lines" viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="fg1" x1="0" x2="1"><stop offset="0" stop-color="#46c24e" stop-opacity="0"/><stop offset=".5" stop-color="#7be082" stop-opacity=".55"/><stop offset="1" stop-color="#46c24e" stop-opacity="0"/></linearGradient></defs>
+<path class="l1" d="M-40 560C200 470 380 640 640 560S1060 420 1480 520"/>
+<path class="l2" d="M-40 610C220 530 420 690 690 612S1110 480 1480 580"/>
+<path class="l3" d="M-40 660C240 590 450 730 740 664S1150 540 1480 640"/>
+<path class="l4" d="M-40 140C240 60 520 220 820 130S1260 40 1480 120"/>
+<path class="l5" d="M-40 190C260 110 540 270 850 180S1280 90 1480 170"/></svg>
+<span class="fa-orb o1"></span><span class="fa-orb o2"></span><span class="fa-orb o3"></span>
+<span class="fa-dots d1"></span><span class="fa-dots d2"></span>
+<svg class="fa-rings" viewBox="0 0 400 400"><circle cx="200" cy="200" r="190"/><circle cx="200" cy="200" r="145" class="r2"/><circle cx="200" cy="200" r="100" class="r3"/><circle cx="200" cy="10" r="7" class="dot"/><circle cx="345" cy="200" r="6" class="dot"/><circle cx="200" cy="300" r="5" class="dot"/></svg>
+<svg class="fa-x x1" viewBox="0 0 100 100"><path d="M14 10L50 46 86 10M14 90L50 54 86 90"/></svg>
+<svg class="fa-x x2" viewBox="0 0 100 100"><path d="M14 10L50 46 86 10M14 90L50 54 86 90"/></svg>
+<i class="fa-sp s1"></i><i class="fa-sp s2"></i><i class="fa-sp s3"></i><i class="fa-sp s4"></i><i class="fa-sp s5"></i>
+</div>
+<svg class="ftr-wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H1440V30C1200 64 960 64 720 34S240 -2 0 30Z"/></svg>
 <div class="wrap ftr-main"><div class="ftr-grid">
-<div class="brand"><img src="/treadx-logo-light.png" alt="TreadX" style="height: 38px; width: auto; display: block;">
-<p>Organizational mental health and training for workplaces across Pakistan: workshops, coaching and ISO 45003 guidance, with results you can measure.</p>
-<a class="iso" href="/iso-45003"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>ISO 45003 training</a>
+<div class="brand"><img src="/treadx-logo-light.png" alt="TreadX" style="height: 40px; width: auto; display: block;">
+<p>Workplace mental health and employee wellbeing for organisations across Pakistan, supported by professional training, consulting and organisational development.</p>
+<a class="iso" href="/services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>ISO 45003:2021 training &amp; advisory</a>
 <div class="social">
 <a href="https://www.instagram.com/treadxp/" aria-label="TreadX on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
 <a href="https://www.linkedin.com/company/treadx-pakistan" aria-label="TreadX on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 9h3.2v11H4zM5.6 4a1.85 1.85 0 1 1 0 3.7 1.85 1.85 0 0 1 0-3.7zM10 9h3v1.6c.5-1 1.8-1.9 3.6-1.9 3.3 0 3.9 2.1 3.9 4.9V20h-3.2v-5.7c0-1.4 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V20H10z"/></svg></a>
 <a href="https://www.facebook.com/" aria-label="TreadX on Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/></svg></a>
 </div></div>
-<div><h4>Explore</h4><a href="/">Home</a><a href="/about">About</a><a href="/programs">Programs</a><a href="/iso-45003">ISO 45003</a><a href="/clients">Clients &amp; Partners</a><a href="/media">Media &amp; Events</a><a href="/contact">Contact</a></div>
-<div><h4>Workshops</h4><a href="/programs">Stress &amp; Anxiety Management</a><a href="/programs">Emotional Intelligence</a><a href="/programs">Preventing Burnout</a><a href="/programs">Improvisational Mindset</a><a href="/programs">Work-Life Balance</a><a href="/programs">Presentations &amp; Negotiations</a><a href="/programs">Mental Health Support System</a></div>
-<div><h4>Visit &amp; call</h4><p class="addr">TreadX Pakistan<br>Block B, Spring North Commercial, Phase 7, Bahria Town, Islamabad</p><a class="tel" href="tel:+923355224220">+92 33 55 224 220</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Spring+North+Commercial+Bahria+Town+Phase+7+Islamabad">Open in Maps</a></div>
-<div><h4>Stay in the loop</h4><p style="font-size: 15px; line-height: 1.6;">Workshop news and updates from TreadX.</p>
-<form class="news" action="#" onsubmit="return false;"><label for="nl-email" style="position: absolute; left: -9999px;">Email address</label><input type="email" id="nl-email" name="email" placeholder="Your email" autocomplete="email"><button type="submit">Subscribe</button></form></div>
+<div><h4>Navigate</h4><a href="/">Home</a><a href="/about">About</a><a href="/programs">Programs</a><a href="/services">Services</a><a href="/clients">Clients</a><a href="/media">Media &amp; Events</a><a href="/contact">Contact</a></div>
+<div><h4>Programs</h4><a href="/programs#stress">Stress &amp; Anxiety Management at Work</a><a href="/programs#ei">Emotional Intelligence &amp; Resilience</a><a href="/programs#burn">Preventing Burnout</a><a href="/programs#imp">Improvisational Mindset</a><a href="/programs#mhss">Mental Health Support System</a><a href="/programs#wlb">Work-Life Balance</a><a href="/programs">All programs</a></div>
+<div><h4>Services</h4><a href="/services">Corporate Mental Health Solutions</a><a href="/services">Employee Counselling &amp; Coaching</a><a href="/services">Workplace Wellbeing Consulting</a><a href="/services">Psychosocial Risk Management</a><a href="/services">HR &amp; Management Support</a><a href="/services">ISO 45003 Advisory &amp; Training</a></div>
 </div></div>
 <div class="ftr-mark" aria-hidden="true">TreadX</div>
-<div class="wrap"><div class="ftr-bottom"><span>&copy; TreadX Pakistan. Organizational mental health &amp; training.</span><a class="totop" href="#">Back to top <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a></div></div>
+<div class="wrap"><div class="ftr-bottom"><span>&copy; TreadX Pakistan. Workplace mental health &amp; employee wellbeing.</span><span class="ftr-tag">Building healthier workplaces. Empowering people.</span><a class="totop" href="#">Back to top <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a></div></div>
 </footer>
+<a class="fab" href="/contact" aria-label="Enquire with TreadX"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span>Enquire</span></a>
 
 
 </body>
